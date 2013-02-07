@@ -12,7 +12,7 @@ def bisection(f, a, b, tol=1e-10, verbose=False):
     b: right endpoint
     g: function over [a, b]
     """
-    if np.dot(g(a), g(b)) >= 0:
+    if np.dot(f(a), f(b)) >= 0:
         raise ValueError("f(a) and f(b) Must have different signs.")
     if verbose:
         iterates = []
@@ -24,7 +24,7 @@ def bisection(f, a, b, tol=1e-10, verbose=False):
     max_k = int(np.ceil(np.log(np.abs(b - a) / tol) / np.log(2) - 1))
     for i in range(max_k):
         c = c_next
-        if np.sign(g(c)) == np.sign(g(a)):
+        if np.sign(f(c)) == np.sign(f(a)):
             a = c
         else:
             b = c
