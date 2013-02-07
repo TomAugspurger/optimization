@@ -39,7 +39,7 @@ class Opt(object):
         iterates = []
         c_next = (a + b) / 2
         e = 1
-
+        k = 0
         max_k = int(np.ceil(np.log(np.abs(b - a) / self.tol) / np.log(2) - 1))
         for i in range(max_k):
             c = c_next
@@ -49,8 +49,9 @@ class Opt(object):
                 b = c
             c_next = (a + b) / 2
             e = np.abs(c - c_next)
+            k += 1
             if self.verbose:
-                iterates.append((c, e))
+                iterates.append((k, c, e))
         return (c, e, max_k, iterates)
 
     ## Number 2
@@ -64,7 +65,7 @@ class Opt(object):
         if simple:
             g = lambda x: A  # Redefine g to always return A.
         e = 1
-        x = x0
+        x = self.x0
         k = 0
         out = []
 
@@ -85,12 +86,13 @@ class Opt(object):
         """
         f = self.f
         g = self.g
+        x0 = self.x0
         if x1 == None:
             y = x0 - f(x0) / g(x0)  # First iteration from Newtons's Method.
         else:
             y = x1
-        e = 1
         x = x0
+        e = 1
         k = 0
         out = []
 
@@ -108,7 +110,7 @@ class Opt(object):
         """Use Contraction Mapping Theorem to find a zero for f.
         T: the operator on f, giving the next iterate.
         """
-        self.f = f
+        f = self.f
         x = self.x0
         e = 1
         k = 0
