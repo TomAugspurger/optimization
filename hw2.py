@@ -3,7 +3,7 @@ from __future__ import division
 import numpy as np
 from scipy import optimize as opt
 
-## Number 1.
+# Number 1.
 
 
 def bisection(f, a, b, tol=1e-10, verbose=False):
@@ -37,19 +37,38 @@ def bisection(f, a, b, tol=1e-10, verbose=False):
 ## Number 2
 
 
-def newton_simple(f, g, x0, tol=1e-10):
+def newton_simple(f, g, x0, tol=1e-10, max_iter=10000, verbose=False):
     """
     f: function
     g: gradient
     x0: inital guess
     """
-
+    A = g(x0)  # Approximation to the Hessian.
+    e = 1
+    x = x0
+    k = 0
+    out = []
+    while e > tol and k < max_iter:
+        x_next = x - f(x) / A
+        e = np.abs(x - x_next)
+        k += 1
+        if verbose:
+            out.append((k, x_next, e))
+        x = x_next
+    return (x_next, e, k, out)
 
 if __name__ == '__main__':
     f = lambda x: np.sqrt(x) * np.exp(x) - 1
     a, b = .1, 1
-    zero, e, max_k, iterates = bisection(f, a, b, tol=10e-7)
-    print('\n Number 1.')
-    print('\n The necessary number of iterations is %i' % max_k)
-    print('My solution: %f' % zero)
-    print('Scipy solution: %f' % opt.bisect(f, a, b))
+    x0 = .55
+    # zero, e, max_k, iterates = bisection(f, a, b, tol=10e-7)
+    # print('\n Number 1.')
+    # print('\n The necessary number of iterations is %i' % max_k)
+    # print('My solution: %f' % zero)
+    # print('Scipy solution: %f' % opt.bisect(f, a, b))
+
+    print('\n Number 2')
+    g = lambda x: np.exp(x) * (.5 * x ** (-.5) + x ** (1.5))
+    A_0 = g(x0)
+    zero, e, k, full = newton_simple(f, g, A_0)
+    print(zero)
