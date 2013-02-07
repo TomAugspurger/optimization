@@ -78,6 +78,15 @@ class Opt(object):
             x = x_next
         return (x_next, e, k, out)
 
+    # def bhhh(self):
+    #     self.f = f
+    #     x = self.x0
+    #     e = 1
+    #     k = 0
+    #     out = []
+
+    #     while e > self.tol and k <= self.max_iter:
+    #         x_next = x - f(x) / 
     def secant(self, x1=None):
         """
         Need either x1 or the gradient so that x1 may be computed.
