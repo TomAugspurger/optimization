@@ -154,6 +154,17 @@ class Opt(object):
                 full.append((k, (a_next, b_next)))
         return ((k, a_next, b_next, full))
 
+    def present(self, full, x):
+        """Nicer formatting.  x_k is a sequence of guesses. x is the solution.
+        full: tuple containing std output, (iteration, next_step, delta)
+        x: the actual root.
+        """
+        df = pd.DataFrame(full, columns=['k', 'x_k', 'delta'])
+        fig = (df['x_k'] - x).plot()
+        error = df['x_k'] - x
+        return (error, fig)
+
+
 if __name__ == '__main__':
     f = lambda x: np.sqrt(x) * np.exp(x) - 1
     g = lambda x: np.exp(x) * (.5 * x ** (-.5) + x ** (1.5))
