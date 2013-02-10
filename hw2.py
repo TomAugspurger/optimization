@@ -1,6 +1,8 @@
 from __future__ import division
 
 import numpy as np
+import pandas as pd
+from numpy.linalg import inv
 from scipy import optimize as opt
 
 
@@ -79,14 +81,22 @@ class Opt(object):
         return (x_next, e, k, out)
 
     # def bhhh(self):
+    #     """Quasi-Newton method where the Hessian is approsimated with
+    #     (1/N) & sum(grad(ln(p)) * grad(ln(p)).T)
+    #     """
     #     self.f = f
     #     x = self.x0
     #     e = 1
     #     k = 0
+    #     N = len(self.x0)
+    #     x = self.x0
     #     out = []
 
     #     while e > self.tol and k <= self.max_iter:
-    #         x_next = x - f(x) / 
+    #         A = (1 / N) * dot(g, g.T)
+    #         x_next = x - f(x) / A
+    #         delta = np.abs(x - x_next)
+
     def secant(self, x1=None):
         """
         Need either x1 or the gradient so that x1 may be computed.
