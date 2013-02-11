@@ -56,8 +56,6 @@ class Opt(object):
                 iterates.append((k, c, e))
         return (c, e, max_k, iterates)
 
-    ## Number 2
-
     def newton(self, simple=False):
         f = self.f
         g = self.g
@@ -79,6 +77,22 @@ class Opt(object):
                 out.append((k, x_next, e))
             x = x_next
         return (x_next, e, k, out)
+
+    def gen_newton(self, x, f, g, n, simple=False):
+        """A generator version.
+
+        Call like:
+            gen = enumerate(gen_newton(x0, f, g, 10))
+            [x for x in gen]
+        """
+        if simple:
+            g = lambda x: g(self.x0)  # Redefine g to always return A.
+
+        for i in range(n):
+            x_next = x - f(x) / g(x)
+            relative_delta = np.abs((x - x_next) / x_next)
+            x = x_next
+            yield x_next, relative_delta
 
     # def bhhh(self):
     #     """Quasi-Newton method where the Hessian is approsimated with
