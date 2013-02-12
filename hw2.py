@@ -2,7 +2,6 @@ from __future__ import division
 
 import numpy as np
 import pandas as pd
-from numpy.linalg import inv
 from scipy import optimize as opt
 
 
@@ -38,10 +37,10 @@ class Opt(object):
         if np.dot(f(a), f(b)) >= 0:
             raise ValueError("f(a) and f(b) Must have different signs.")
 
-        iterates = []
         c_next = (a + b) / 2
+        iterates = [(1, c_next, 1.)]  # 1.0 for default error.
         e = 1
-        k = 0
+        k = 1
         max_k = int(np.ceil(np.log(np.abs(b - a) / self.tol) / np.log(2) - 1))
         for i in range(max_k):
             c = c_next
@@ -66,8 +65,8 @@ class Opt(object):
             g = lambda x: A  # Redefine g to always return A.
         e = 1
         x = self.x0
-        k = 0
-        out = []
+        k = 1
+        out = [(0, self.x0, 1.0)]
 
         while e > self.tol and k <= self.max_iter:
             x_next = x - f(x) / g(x)
@@ -126,8 +125,8 @@ class Opt(object):
             y = x1
         x = x0
         e = 1
-        k = 0
-        out = []
+        k = 1
+        out = [(0, x0, 1.), (1, y, abs(x0 - y))]
 
         while e > self.tol and k <= self.max_iter:
             A = (f(x) - f(y)) / (x - y)
@@ -143,11 +142,10 @@ class Opt(object):
         """Use Contraction Mapping Theorem to find a zero for f.
         T: the operator on f, giving the next iterate.
         """
-        f = self.f
         x = self.x0
         e = 1
-        k = 0
-        out = []
+        k = 1
+        out = [(k, x, e)]
 
         while e > self.tol and k <= self.max_iter:
             x_next = T(x)
@@ -164,7 +162,7 @@ class Opt(object):
         b = self.b
         tau = 2 / (1 + np.sqrt(5))
         k = 0
-        full = []
+        full = [(k, (a, b))]
 
         while k <= self.max_iter:
             a_next = a + (1 - tau) * (b - a)
@@ -185,8 +183,10 @@ class Opt(object):
         """
         df = pd.DataFrame(full, columns=['k', 'x_k', 'delta'])
         fig = (df['x_k'] - x).plot()
-        error = df['x_k'] - x
-        return (error, fig)
+        fig.set_xlabel('Iteration')
+        fig.set_ylabel('Error')
+        df['error'] = df['x_k'] - x
+        return (df[['x_k', 'error']], fig)
 
 
 if __name__ == '__main__':
@@ -228,7 +228,7 @@ if __name__ == '__main__':
     x0 = .5
 
     n3 = Opt(f, g=g, x0=x0, verbose=True, max_iter=10)
-    zero, e, k, full = n2.newton()
+    # zero, e, k, full = n2.newton()
     print(full)
     print('Not Converging.  Cycling.')
 
