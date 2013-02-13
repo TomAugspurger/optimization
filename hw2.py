@@ -7,6 +7,26 @@ from scipy import optimize as opt
 
 class Opt(object):
     """Various optimization routines.
+    Parameters
+    ----------
+
+    * f: The function to be minimized. (Currently just R -> R.)
+    * g: Gradient of the function (for Newton's method).
+    * a: Left starting point for bisection method.
+    * b: right starting point for bisection method.
+    * x0: Starting guess for various methods.
+    * tol: An (absolute) delta between iterations.
+    * verbose: Bool.  How much output to return.
+    * max_iter: in case things go wrong.
+
+    Example:
+        f = lambda x: np.sqrt(x) * np.exp(x) - 1
+        g = lambda x: np.exp(x) * (.5 * x ** (-.5) + x ** (1.5))
+        a, b = .1, 1
+        x0 = .55
+
+        m = Opt(f, a=a, b=b, g=g, x0=.55, verbose=True)
+        zero, e, max_k, iterates = m.bisection()
     """
     def __init__(self, f, a=None, b=None, g=None, x0=None, tol=1e-10,
         verbose=False, max_iter=1000):
@@ -84,8 +104,8 @@ class Opt(object):
             gen = enumerate(gen_newton(x0, f, g, 10))
             [x for x in gen]
         """
-        if simple:
-            g = lambda x: g(self.x0)  # Redefine g to always return A.
+        # if simple:  Broken
+        #     g = lambda x: g(self.x0)  # Redefine g to always return A.
 
         for i in range(n):
             x_next = x - f(x) / g(x)
@@ -187,64 +207,3 @@ class Opt(object):
         fig.set_ylabel('Error')
         df['error'] = df['x_k'] - x
         return (df[['x_k', 'error']], fig)
-
-
-if __name__ == '__main__':
-    f = lambda x: np.sqrt(x) * np.exp(x) - 1
-    g = lambda x: np.exp(x) * (.5 * x ** (-.5) + x ** (1.5))
-    a, b = .1, 1
-    x0 = .55
-
-    m = Opt(f, a=a, b=b, g=g, x0=.55, verbose=True)
-    zero, e, max_k, iterates = m.bisection()
-    print('\n Number 1.')
-    print('\n The necessary number of iterations is %i' % max_k)
-    print('My solution: %f' % zero)
-    print('Scipy solution: %f' % opt.bisect(f, a, b))
-
-    print('\n Part 2: Simplified Newton\'s Method')
-
-    A_0 = g(x0)
-    zero, e, k, full = m.newton(simple=True)
-    print(zero)
-
-    print('\n Part c: Newton\'s Method')
-    zero, e, k, full = m.newton()
-    print(zero)
-
-    print('\n Part d: Secant Method')
-    zero, e, k, full = m.secant()
-    print(zero)
-
-    print('\n Part e: Fixed Point Method')
-    T = lambda x: np.exp(-2 * x)
-    zero, e, k, full = m.fixed_point(T)
-    print(zero)
-
-    #### Number 3
-    print('\n Number 3')
-    f = lambda x: 4 * x ** 5 - x ** 3 - x
-    g = lambda x: 20 * x ** 4 - 3 * x ** 2 - 1
-    x0 = .5
-
-    n3 = Opt(f, g=g, x0=x0, verbose=True, max_iter=10)
-    # zero, e, k, full = n2.newton()
-    print(full)
-    print('Not Converging.  Cycling.')
-
-    #### Number 4
-    print('\n Number 4')
-    f = lambda x: x ** 6 - (1.5) ** 6
-    x0 = .25
-    x1 = 5
-    n4 = Opt(f, max_iter=6, verbose=True)
-    zero, e, k, full = n4.secant(x1=x1)
-    print(full)
-
-    #### Number 5
-    print('\n Number 5')
-    f = lambda x: 2 * x ** (1.5) + 3 * np.exp(-x) + 5
-    a0, b0 = 0.2, 0.6
-    n5 = Opt(f, a=.2, b=.6, max_iter=3, verbose=True)
-    zero, e, k, full = n5.golden_section()
-    print(full)
