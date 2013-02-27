@@ -9,11 +9,11 @@ from scipy.linalg import inv
 # TODO: Add initial x conditions to DataFrame.
 
 
-def update(C, F, x, B):
+def update(C, F, x, B, f_at_x):
     """
     The updating logic behind Broyden's method.
     """
-    f_at_x = F(x)
+    # f_at_x = F(x)
     p = - dot(C, f_at_x)
     x = x + p
     new_f_at_x = F(x)
@@ -26,12 +26,12 @@ def update(C, F, x, B):
     return (C, F, x, B, f_at_x)
 
 
-def broyden_gen(F, x, B, C, n=5):
+def broyden_gen(F, x, B, C, f_at_x, n=5):
     """
     Generator implementing Broyden's update.
     """
     for i in range(n):
-        C, F, x, B, f_at_x = update(C, F, x, B)
+        C, F, x, B, f_at_x = update(C, F, x, B, f_at_x)
         print('The estimate at {} is {}'.format(i, x))
         yield (x, B, f_at_x, C)
 
@@ -53,16 +53,16 @@ if __name__ == "__main__":
     # Showing that for $k \geq 0, (B_k)_{21} = 1, (B_k)_{22} = 1$
 
     # <codecell>
-    a = broyden_gen(F, x0, B, C)
+    a = broyden_gen(F, x0, B, C, F(x0))
     print(a)
 
     # <markdowncell>
     # Showing that $(x_k)_1 + (x_k)_2 - 3 = 0 \forall k \geq 1$
-        
+
     # <codecell>
     df = pd.DataFrame([x for x in a], columns=['x', 'B', 'f_at_x', 'C'])
     print(df['x'].apply(lambda x: x[0] + x[1] - 3))  # Should be zeros.
-    
+
     # <markdowncell>
     # Showing that $(B_{k+1} - B_k)[1, 1]^T = 0 \forall k \geq 1$.
     # so that $(B_k)_{11} + (B_k)_{12} = 0 \forall k \geq 1$.
