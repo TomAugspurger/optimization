@@ -88,7 +88,7 @@ Number 4: With the secant method
 3    1877.975489
 4       0.253463
 5       0.253463
-The iterations to converge to about .25356; Further iterations wll fail since the denomenator is now essentially zero.
+The iterations to converge to about .25356; Further iterations will fail since the denominator is now essentially zero.
 
 ############################
 Number 5: Golden Section Method
