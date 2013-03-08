@@ -5,7 +5,7 @@ import numpy as np
 from numpy import dot
 
 
-def bfgs_els_update(x, B, c, H):
+def bfgs_els_update(x, B, c, H, dfp):
     p = -c - dot(H, x)
     a = - 1 / (dot(dot(p.T, H), p)) * dot((dot(H, x) + c).T, p)
     s = a * p
@@ -13,15 +13,22 @@ def bfgs_els_update(x, B, c, H):
     y = dot(H, s)
     B_next = B - 1 / (dot(dot(s.T, B), s)) * (
         dot(dot(dot(B, s), s.T), B.T)) + 1 / (dot(y.T, s)) * dot(y, y.T)
+    if dfp:
+        sbs = dot(dot(s.T, B), s)
+        w = (1 / dot(y.T, s) * y) - (1 / sbs) * dot(B, s)
+        B_next = B_next + sbs * dot(w, w.T)
     return (x_next, B_next, p, a, s, y)
 
 
-def bfgs_gen(x, B, c, H, q, n=4):
+def bfgs_gen(x, B, c, H, q, n=4, dfp=False):
     for i in range(n):
-        x, B, p, a, s, y = bfgs_els_update(x, B, c, H)
+        x, B, p, a, s, y = bfgs_els_update(x, B, c, H, dfp)
         yield ({'x': x, 'B': B, 'f': q(x), 'p': p, 'a': a, 's': s, 'y': y})
 
+
 if __name__ == '__main__':
+    pd.set_option('display.max_colwidth', 80)
+
     def q(x):
         return (x[0] - 3./4. * x[1] + 4./9. * x[0] ** 2 -
                 2 * x[0] * x[1] + 3 * x[1] * 2)
@@ -35,5 +42,13 @@ if __name__ == '__main__':
     H = np.array([8/9, -2, -2, 6]).reshape(2, 2)
     c = np.array([1, -.75]).reshape(2, 1)
 
-    gen = bfgs_gen(x, B, c, H, q)
-    df = pd.DataFrame([ar for ar in gen])
+    gen_bfgs = bfgs_gen(x, B, c, H, q)
+    df = pd.DataFrame([ar for ar in gen_bfgs])
+    with open('hw5_1_results.txt', 'w') as f:
+        f.write(df.to_latex())
+
+    gen_dfp = bfgs_gen(x, B, c, H, q, dfp=True)
+    df2 = pd.DataFrame([ar for ar in gen_dfp])
+    with open('hw5_1_results.txt', 'a') as f:
+        f.write('\n\nWith DFP\n\n')
+        f.write(df2.to_latex())

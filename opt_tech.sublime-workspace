@@ -1,0 +1,1477 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ols",
+				"ols_y_hat"
+			],
+			[
+				"class",
+				"class	New Class"
+			],
+			[
+				"try",
+				"try	Try/Except"
+			],
+			[
+				"refer",
+				"reference_tuple"
+			],
+			[
+				"values",
+				"values"
+			],
+			[
+				"thet",
+				"theta_1"
+			],
+			[
+				"declar",
+				"declarants"
+			],
+			[
+				"declara",
+				"declarants_no_002_dict"
+			],
+			[
+				"partn",
+				"partners_pickle"
+			],
+			[
+				"partner",
+				"partners_dict"
+			],
+			[
+				"countr",
+				"country_code"
+			],
+			[
+				"pickle",
+				"pickle_file"
+			],
+			[
+				"s",
+				"s"
+			],
+			[
+				"qr_resul",
+				"qr_results_no_malta"
+			],
+			[
+				"year",
+				"year"
+			],
+			[
+				"impor",
+				"imports_c	(global, instance)"
+			],
+			[
+				"P",
+				"P"
+			],
+			[
+				"p_v",
+				"p_value_r	(attribute, instance)"
+			],
+			[
+				"zeros",
+				"zeros	(imported, instance)"
+			],
+			[
+				"Y",
+				"Y"
+			],
+			[
+				"A",
+				"A"
+			],
+			[
+				"not",
+				"non-seasonally-adjusted"
+			],
+			[
+				"X",
+				"X_varnames	(local, instance)"
+			],
+			[
+				"num",
+				"num	(local, instance)"
+			],
+			[
+				"params",
+				"Access-Points-and-Parameters-for-Web-Services"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+			[
+				"git push",
+				"Git: Push"
+			],
+			[
+				"git com",
+				"Git: Commit"
+			],
+			[
+				"git ad",
+				"Git: Add Current File"
+			],
+			[
+				"wrap en",
+				"Snippet: Wrap selection in LaTeX command"
+			],
+			[
+				"item",
+				"Snippet: Turn selection into LaTeX environment"
+			],
+			[
+				"git com hu",
+				"Git: Commit Selected Hunk"
+			],
+			[
+				"git ad hu",
+				"Git: Add Selected Hunk"
+			],
+			[
+				"git add hun",
+				"Git: Add Selected Hunk"
+			],
+			[
+				"python",
+				"Set Syntax: Python"
+			],
+			[
+				"git add h",
+				"Git: Add Selected Hunk"
+			],
+			[
+				"git add hu",
+				"Git: Add Selected Hunk"
+			],
+			[
+				"git add",
+				"Git: Add Current File"
+			],
+			[
+				"git comm",
+				"Git: Commit"
+			],
+			[
+				"diff",
+				"FileDiffs: Menu"
+			],
+			[
+				"filed",
+				"FileDiffs: Menu"
+			],
+			[
+				"envir",
+				"Snippet: Turn selection into LaTeX environment"
+			],
+			[
+				"wrap",
+				"Snippet: Wrap selection in LaTeX command"
+			],
+			[
+				"title",
+				"Convert Case: Title Case"
+			],
+			[
+				"latex en",
+				"Snippet: Turn selection into LaTeX environment"
+			],
+			[
+				"git comi",
+				"Git: Commit"
+			],
+			[
+				"wra",
+				"HTML: Wrap Selection With Tag"
+			],
+			[
+				"git dif",
+				"Git: Diff All"
+			],
+			[
+				"git diff",
+				"Git: Diff Current File"
+			],
+			[
+				"git puh",
+				"Git: Push"
+			],
+			[
+				"pyth",
+				"Set Syntax: Python"
+			],
+			[
+				"git push ",
+				"Git: Push"
+			],
+			[
+				"git",
+				"Git: Add Current File"
+			],
+			[
+				"GIT AD",
+				"Git: Add Current File"
+			],
+			[
+				"disable",
+				"SublimeLinter: Disable Linting"
+			],
+			[
+				"environ",
+				"Snippet: Turn selection into LaTeX environment"
+			],
+			[
+				"git commit",
+				"Git: Commit"
+			],
+			[
+				"git status",
+				"Git: Status"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			],
+			[
+				"previe",
+				"Markdown Preview: preview in Browser"
+			],
+			[
+				"markdown",
+				"Snippet: Markdown_link_(mdl)"
+			],
+			[
+				"prev",
+				"Markdown Preview: preview in Browser"
+			],
+			[
+				"preve",
+				"Markdown Preview: preview in Browser"
+			],
+			[
+				"save only",
+				"SublimeLinter: Save-Only Linting"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				":w",
+				":w - Save"
+			],
+			[
+				"enable p",
+				"Package Control: Enable Package"
+			],
+			[
+				"preview",
+				"Markdown Preview: preview in Browser"
+			],
+			[
+				"rope",
+				"Package Control: Enable Package"
+			],
+			[
+				"sublimec",
+				"SublimeCodeIntel: Reset"
+			],
+			[
+				"disab",
+				"Package Control: Disable Package"
+			],
+			[
+				"matlab",
+				"Set Syntax: MATLAB"
+			],
+			[
+				"pack li",
+				"Package Control: List Packages"
+			],
+			[
+				"previ",
+				"Markdown Preview: preview in Browser"
+			],
+			[
+				"prevew",
+				"Markdown Preview: preview in Browser"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"matla",
+				"Set Syntax: MATLAB"
+			],
+			[
+				"git push b",
+				"Git: Push Current Branch"
+			],
+			[
+				"save onl",
+				"SublimeLinter: Save-Only Linting"
+			],
+			[
+				"comman",
+				"Snippet: Wrap selection in LaTeX command"
+			],
+			[
+				"command",
+				"Snippet: Wrap selection in LaTeX command"
+			],
+			[
+				"lat comma",
+				"Snippet: Wrap selection in LaTeX command"
+			],
+			[
+				"latex",
+				"Snippet: Turn selection into LaTeX environment"
+			],
+			[
+				"gitst",
+				"Gist: Create Private Gist"
+			],
+			[
+				"gist",
+				"Gist: Create Public Gist"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"pack in",
+				"Package Control: Install Package"
+			],
+			[
+				"pakc ins",
+				"Package Control: Install Package"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"pre",
+				"Markdown Preview: preview in Browser"
+			],
+			[
+				"git psu",
+				"Git: Push Current Branch"
+			],
+			[
+				"git stat",
+				"Git: Status"
+			],
+			[
+				"pyt",
+				"Set Syntax: Python"
+			],
+			[
+				"PREV",
+				"Markdown Preview: preview in Browser"
+			],
+			[
+				"git statu",
+				"Git: Status"
+			],
+			[
+				"mul",
+				"Set Syntax: MultiMarkdown"
+			],
+			[
+				"mark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"crra",
+				"Snippet: crra"
+			],
+			[
+				"max_",
+				"Snippet: max_sum"
+			],
+			[
+				"snippet",
+				"Snippet: #!/usr/bin/env"
+			],
+			[
+				"snipp",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"latex ",
+				"Set Syntax: LaTeX"
+			],
+			[
+				"bibt",
+				"Set Syntax: BibTeX"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"pack ",
+				"Package Control: List Packages"
+			],
+			[
+				"save on",
+				"SublimeLinter: Save-Only Linting"
+			],
+			[
+				"pytho",
+				"Set Syntax: Python"
+			],
+			[
+				"cop na",
+				"File: Copy Name"
+			],
+			[
+				"syn pyth",
+				"Set Syntax: Python"
+			],
+			[
+				"pro add ",
+				"Project: Add Folder"
+			],
+			[
+				"copy p	",
+				"File: Copy Path"
+			],
+			[
+				"cop",
+				"File: Copy Path"
+			],
+			[
+				"git pushcur",
+				"Git: Push Current Branch"
+			],
+			[
+				"git add fi",
+				"Git: Add Current File"
+			],
+			[
+				"copy ",
+				"File: Copy Path"
+			],
+			[
+				"pack git",
+				"Package Control: List Packages"
+			],
+			[
+				"settings",
+				"Preferences: Package Control Settings – User"
+			],
+			[
+				"setting",
+				"Preferences: Package Control Settings – User"
+			],
+			[
+				"add fol",
+				"Project: Add Folder"
+			],
+			[
+				"projec",
+				"Project: Save As"
+			],
+			[
+				"snppet",
+				"Snippet: #!/usr/bin/env"
+			],
+			[
+				"funct",
+				"Snippet: Function"
+			],
+			[
+				"class",
+				"Snippet: New Class"
+			],
+			[
+				"sav on",
+				"SublimeLinter: Save-Only Linting"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"packa ins",
+				"Package Control: Install Package"
+			],
+			[
+				"packa ",
+				"Package Control: List Packages"
+			],
+			[
+				"instl",
+				"Package Control: Install Package"
+			],
+			[
+				"pack dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"disabl",
+				"Package Control: Disable Package"
+			],
+			[
+				"pack inst",
+				"Package Control: Install Package"
+			],
+			[
+				"packa in",
+				"Package Control: Install Package"
+			],
+			[
+				"packa dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"disable ",
+				"Package Control: Disable Package"
+			],
+			[
+				"ad fo",
+				"Project: Add Folder"
+			],
+			[
+				"ad ",
+				"Project: Add Folder"
+			],
+			[
+				"git com hun",
+				"Git: Commit Selected Hunk"
+			],
+			[
+				"git ad hunk",
+				"Git: Add Selected Hunk"
+			],
+			[
+				"git com hunk",
+				"Git: Commit Selected Hunk"
+			],
+			[
+				"sav onl",
+				"SublimeLinter: Save-Only Linting"
+			],
+			[
+				"open fi",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"git amm",
+				"Git: Amend Commit"
+			],
+			[
+				"rename",
+				"File: Rename"
+			],
+			[
+				"git ad hun",
+				"Git: Add Selected Hunk"
+			],
+			[
+				"git ad cu",
+				"Git: Add Current File"
+			],
+			[
+				"preivew",
+				"Markdown Preview: preview in Browser"
+			],
+			[
+				"git dfi",
+				"Git: Diff Current File"
+			],
+			[
+				"git dif fil",
+				"Git: Diff Current File"
+			],
+			[
+				"filep",
+				"File: Copy Path"
+			],
+			[
+				"save on ",
+				"SublimeLinter: Save-Only Linting"
+			],
+			[
+				"file path",
+				"File: Copy Path"
+			],
+			[
+				"git com ",
+				"Git: Commit"
+			],
+			[
+				"save ol",
+				"SublimeLinter: Save-Only Linting"
+			]
+		],
+		"width": 453.0
+	},
+	"console":
+	{
+		"height": 295.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/tom/Dropbox/Economics/Topics_in_Macro/alice/software/presentation/slides_acemoglu_akcigit.tex",
+		"/Users/tom/Dropbox/Economics/Topics_in_Macro/alice/software/scripts/classifications.py",
+		"/Users/tom/Dropbox/Economics/Topics_in_Macro/alice/software/scripts/name_parsing.py",
+		"/Volumes/HDD/Users/tom/DataStorage/Patents/industries.txt",
+		"/Users/tom/Dropbox/Economics/Topics_in_Macro/alice/software/scripts/summary_stats.py",
+		"/Users/tom/Dropbox/Economics/Topics_in_Macro/alice/software/scripts/companies.py",
+		"/Users/tom/Python/fetch_citations/fetch_citations.py",
+		"/Users/tom/Dropbox/Economics/Topics_in_Macro/alice/software/scripts/tech_graph.py",
+		"/Users/tom/Dropbox/Economics/Topics_in_Macro/alice/software/scripts/sparse_graph.py",
+		"/Users/tom/Dropbox/Economics/Topics_in_Macro/alice/software/research/AcemogluAkcigitNotes.tex",
+		"/Users/tom/Dropbox/Economics/Topics_in_Macro/alice/software/presentation/summary_slides.tex",
+		"/Users/tom/Dropbox/Economics/Topics_in_Macro/alice/software/scripts/patent_lookup.py",
+		"/Users/tom/Dropbox/Economics/Topics_in_Macro/alice/software/research/BoldrinLevineNotes.tex",
+		"/Users/tom/Dropbox/Economics/Topics_in_Macro/alice/software/scripts/states_shapefile/state_plot.py",
+		"/Users/tom/Dropbox/Economics/Topics_in_Macro/alice/software/scripts/make_plots.py",
+		"/Users/tom/Library/Application Support/Sublime Text 2/Packages/User/latex_fig.sublime-snippet",
+		"/Users/tom/Library/Application Support/Sublime Text 2/Packages/User/latex_integral.sublime-snippet",
+		"/Users/tom/Dropbox/Stats/makeup1Attendess.md",
+		"/Users/tom/Dropbox/Economics/Topics_in_Macro/alice/software/scripts/names.py",
+		"/Users/tom/Dropbox/Economics/Topics_in_Macro/alice/software/scripts/cite_network.py",
+		"/Users/tom/Dropbox/Economics/Topics_in_Macro/alice/software/.gitignore",
+		"/Users/tom/Dropbox/Economics/Topics_in_Macro/alice/software/scripts/.gitignore",
+		"/Users/tom/Dropbox/Economics/Topics_in_Macro/alice/software/scripts/.ignore",
+		"/Users/tom/.bash_profile",
+		"/usr/local/Cellar/shapelib/1.3.0/pyshapelib-0.3/setup.py",
+		"/usr/local/Library/Formula/shapelib.rb",
+		"/Users/tom/Dropbox/Economics/Topics_in_Macro/alice/software/scripts/states_shapefile/dbflib.py",
+		"/Users/tom/Dropbox/Economics/Topics_in_Macro/alice/software/scripts/tests/test_patent_lookup.py",
+		"/Users/tom/Dropbox/Economics/Topics_in_Macro/alice/software/tests/test_patent_lookup.py",
+		"/Users/tom/Dropbox/Economics/Topics_in_Macro/alice/software/scripts/scripts.py",
+		"/Users/tom/Dropbox/Economics/Topics_in_Macro/alice/software/scripts/Proposal_Caleb.tex",
+		"/Users/tom/Dropbox/Economics/Topics_in_Macro/alice/software/software.sublime-project",
+		"/Users/tom/Dropbox/Economics/Topics_in_Macro/alice/software/software.sublime-workspace",
+		"/Users/tom/Dropbox/Economics/Topics_in_Macro/alice/software/scripts/sample_ppf.py",
+		"/Users/tom/Dropbox/Stats/quiz3/notes.md",
+		"/Users/tom/trips.txt",
+		"/Users/tom/Dropbox/Economics/Topics_in_Macro/alice/software/BoldrinLevineNotes.tex",
+		"/Users/tom/Dropbox/Economics/Topics_in_Macro/alice/software/sample_ppf.py",
+		"/Users/tom/Library/Application Support/Sublime Text 2/Packages/User/latex_sum.sublime-snippet",
+		"/Users/tom/Dropbox/Economics/Topics_in_Macro/alice/software/tech_graph.py",
+		"/Users/tom/Dropbox/Economics/Topics_in_Macro/alice/software/timing.py",
+		"/Users/tom/Dropbox/Economics/Topics_in_Macro/alice/software/sparse_graph.py",
+		"/Users/tom/Desktop/sympy.ipynb",
+		"/Users/tom/Dropbox/Economics/Topics_in_Macro/alice/software/scripts.py",
+		"/Users/tom/Dropbox/Economics/Topics_in_Macro/alice/software/sparse_matrix.py",
+		"/Users/tom/Dropbox/Economics/Topics_in_Macro/alice/software/gmail.py",
+		"/Users/tom/.google_file.txt",
+		"/Users/tom/Dropbox/Economics/Topics_in_Macro/alice/software/cite_network.py",
+		"/Users/tom/Dropbox/Economics/Topics_in_Macro/alice/software/res.txt",
+		"/Users/tom/Dropbox/Economics/Optimization Techniques/Homework/hw3_3.py",
+		"/Users/tom/Dropbox/Stats/quiz4/quiz4.txt",
+		"/Users/tom/Dropbox/Stats/enrollment.md",
+		"/Users/tom/Dropbox/Economics/Topics_in_Macro/alice/software/classifications.py",
+		"/Users/tom/Dropbox/Economics/Topics_in_Macro/alice/software/AcemogluAkcigitNotes.tex",
+		"/Users/tom/Dropbox/Stats/exam_1/Exam 1 Review.md",
+		"/Users/tom/Dropbox/Economics/Programming/Python/paper_repo/paper_repo.py",
+		"/Users/tom/Dropbox/Economics/Topics_in_Macro/alice/software/patent_lookup.py",
+		"/Users/tom/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/tom/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Volumes/HDD/Users/tom/DataStorage/Patents/scripts.py",
+		"/Users/tom/Dropbox/Economics/Programming/compEcon/ngm/TZMatlabPrograms/fwzmsv_nk_example/fwz_msv_msre.m",
+		"/Users/tom/Library/Application Support/Sublime Text 2/Packages/LaTeXTools/texSections.py",
+		"/Users/tom/Desktop/GrowthProblem.nb",
+		"/Users/tom/Dropbox/Economics/Topics_in_Macro/alice/software/exploring.tex",
+		"/Users/tom/Dropbox/Stats/quiz1/notesOnQuiz1.md",
+		"/Users/tom/Python/fetch_citations/full_run.py",
+		"/Users/tom/Dropbox/Economics/Optimization Techniques/Homework/hw1.py",
+		"/Users/tom/Dropbox/Economics/Topics_in_Macro/alice/software/software/proposal.tex",
+		"/Users/tom/Dropbox/Economics/Topics_in_Macro/alice/software/software/.gitignore",
+		"/Users/tom/Dropbox/Economics/Programming/Python/paper_repo/tests.py",
+		"/Users/tom/Library/Application Support/Sublime Text 2/Packages/User/LaTeX.sublime-build",
+		"/Users/tom/Dropbox/Economics/Topics_in_Macro/alice/picking_a_topic.md",
+		"/Users/tom/Library/Application Support/Sublime Text 2/Packages/User/LaTeX.sublime-settings",
+		"/Users/tom/Desktop/test.py",
+		"/Users/tom/Economics/Topics_in_Macro/alice/software/exploring.md",
+		"/Users/tom/Dropbox/Economics/Econometrics_2/Notes/discussion2.py",
+		"/Users/tom/Dropbox/Economics/Econometrics_2/Notes/discussion2.m",
+		"/Users/tom/Library/Application Support/Sublime Text 2/Packages/Markdown Preview/MarkdownPreview.sublime-settings",
+		"/Users/tom/bin/bongo.py",
+		"/Users/tom/citations.bib",
+		"/Users/tom/Desktop/testp.py",
+		"/Users/tom/Dropbox/Economics/Topics_in_Macro/alice/notes/bin/HosseniJonesShouridehNotes.tex",
+		"/Users/tom/Library/Application Support/Sublime Text 2/Packages/LaTeXTools/LaTeX.sublime-build",
+		"/Users/tom/Dropbox/Economics/Topics_in_Macro/alice/notes/bin/HosseniJonesShouridehNotes.bbl",
+		"/Users/tom/Economics/Topics_in_Macro/alice/notes/bin/AcemogluAkcigitNotes.tex",
+		"/Users/tom/Library/Application Support/Sublime Text 2/Packages/Gist/Gist.sublime-settings",
+		"/Users/tom/Economics/Topics_in_Macro/alice/testings.md",
+		"/Users/tom/Library/Application Support/Sublime Text 2/Packages/Markdown Preview/sample.md",
+		"/Users/tom/Dropbox/Economics/Topics_in_Macro/alice/notes/bin/Nots on Jones & Manuelli (2004) - Neoclassical Models of Endogenous Growth- The Effects of Fiscal Policy, Innovation and Fluctuations.tex",
+		"/Users/tom/Dropbox/Economics/Econometrics_2/Notes/simulation_p16.py",
+		"/Users/tom/Dropbox/Economics/Topics_in_Macro/alice/notes/bin/Notes on Perla, Tonetti, & Waugh (2012) - Equilibrium Technology Diffusion, Trade, and Growth.tex",
+		"/Users/tom/statsmodels/docs/source/vector_ar.rst",
+		"/Users/tom/fetch_citations.py",
+		"/Users/tom/Library/Application Support/Sublime Text 2/Packages/User/Latex.sublime-settings",
+		"/Users/tom/Downloads/j.1542-4774.2011.01053.x.pdf",
+		"/Users/tom/Dropbox/Economics/Programming/Python/paper_repo/fixing.py",
+		"/Users/tom/Library/Application Support/Sublime Text 2/Packages/User/beamerBasicTemplate.sublime-snippet",
+		"/Users/tom/Library/Application Support/Sublime Text 2/Packages/User/crra.sublime-snippet",
+		"/Users/tom/Library/Application Support/Sublime Text 2/Packages/User/max_sum.sublime-snippet",
+		"/Users/tom/Dropbox/Economics/Econometrics_2/Notes/Discussion 1 - Notes on MATLAB.md",
+		"/Users/tom/Library/Application Support/Sublime Text 2/Packages/LaTeXTools/latex_cite_completions.py",
+		"/Users/tom/Dropbox/Economics/Topics_in_Micro/Term_Paper/final_paper/moral_hazard_and_liquidity.tex",
+		"/Users/tom/Dropbox/Economics/Topics_in_Micro/Term_Paper/final_paper/citations.bib",
+		"/Users/tom/Dropbox/Economics/Topics_in_Micro/Term_Paper/final_presentation/moral_hazard_full_info.tex",
+		"/Volumes/HDD/usr/local/texlive2012/texmf-dist/tex/latex/harvard/harvard.sty",
+		"/Users/tom/Dropbox/Economics/Topics_in_Micro/Paper_Presentation/slides.tex",
+		"/Users/tom/Dropbox/Economics/Topics_in_Micro/Term_Paper/final_paper/moral_hazard_and_liquidity.sublime-workspace",
+		"/Users/tom/Dropbox/Economics/Topics in Micro/Term Paper/moral_hazard_full_info.toc",
+		"/Users/tom/TradeData/data-wrangling/correspondences/durables_classification.py",
+		"/Users/tom/TradeData/data-wrangling/Eurostat/response/response.py",
+		"/Users/tom/TradeData/data-wrangling/Eurostat/size_control/size_control.py",
+		"/Users/tom/TradeData/data-wrangling/Eurostat/supply_use/downstream_hypothesis.py",
+		"/Users/tom/TradeData/data-wrangling/reg.py",
+		"/Users/tom/TradeData/data-wrangling/Eurostat/supply_use/upstream_hypothesis.py",
+		"/Users/tom/TradeData/data-wrangling/Comext/new_monthly_process.py",
+		"/Users/tom/Dropbox/Economics/Econometrics/Homework/HW6/my_ols.py",
+		"/Users/tom/TradeData/data-wrangling/correspondences/excel_correspondences/more_prodcom_parsing.py",
+		"/Users/tom/TradeData/data-wrangling/correspondences/nace_parse.py",
+		"/Users/tom/TradeData/data-wrangling/Eurostat/ind_prod/ind_prod_cleaning.py",
+		"/Users/tom/TradeData/data-wrangling/Eurostat/services/services_munging.py",
+		"/Users/tom/TradeData/data-wrangling/Eurostat/supply_use/supply_use_munging.py",
+		"/Users/tom/TradeData/data-wrangling/Eurostat/ind_prod/ind_prod.py",
+		"/Users/tom/TradeData/data-wrangling/Eurostat/correspondences/excel_correspondences/cn_nace_parsing.py",
+		"/Users/tom/TradeData/data-wrangling/Eurostat/correspondences/nace_parse.py",
+		"/Users/tom/Library/Application Support/Sublime Text 2/Packages/User/Package Control.sublime-settings",
+		"/Users/tom/TradeData/data-wrangling/euro_recession_trade.sublime-project",
+		"/Users/tom/TradeData/data-wrangling/paper/euro_recession_trade.tex",
+		"/User/tom/TradeData/Eurostat/correspondences"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"equation",
+			"aghi",
+			"tele",
+			"comp",
+			"bell_south",
+			"bell_atlantic",
+			"att_subsidiaries",
+			"all_counts.plot()",
+			"all_counts",
+			"frame",
+			"12725261",
+			"fig.tight_layout()\n",
+			"yout(",
+			"()",
+			"1970",
+			"ax1.set_yscale('log')",
+			"2010",
+			"sub",
+			"']\n",
+			"patent",
+			"All",
+			"miss_all",
+			"plt.draw()",
+			"res",
+			"Unadjusted",
+			"Adjusted",
+			"Unadjusted",
+			"100",
+			"dpi=",
+			"item",
+			"full_ipr_value",
+			"CNP16OV",
+			"hello",
+			"source",
+			"Unadjusted",
+			"Number",
+			"item",
+			"prob",
+			"later",
+			"environmentd",
+			"align",
+			"equation",
+			"basemap",
+			"patent",
+			"ser",
+			"df",
+			"align",
+			"equation",
+			"Instantaneous",
+			"math",
+			"equation",
+			"itemize",
+			"begin",
+			"frametitle",
+			"frame",
+			"itemize",
+			"Follower",
+			"Production",
+			"frame",
+			"equation",
+			"title",
+			"item",
+			"setup",
+			"sub",
+			"title",
+			"1500",
+			"706518",
+			"everything",
+			"isinst",
+			"not",
+			"patent",
+			"all_a",
+			"num",
+			"return",
+			"yield",
+			"base",
+			"patents",
+			" \n",
+			"name_to_patent",
+			"pass",
+			"one",
+			"lookup",
+			"they",
+			"capital",
+			"align",
+			"general_foc",
+			"eq",
+			"?",
+			"1",
+			"Capital",
+			"Stock",
+			"Capital",
+			"ppf",
+			"align",
+			"equation",
+			"100",
+			"plot_surface",
+			"1",
+			"cos",
+			"int",
+			"int_",
+			"savemat",
+			"conflict",
+			"file",
+			"isolated",
+			"Equilibrium",
+			"Production",
+			"Preferences",
+			"in",
+			"invention",
+			"goal",
+			"str",
+			"goal",
+			"Damn",
+			"damn",
+			"t_",
+			"pass",
+			"True",
+			"cat",
+			"end",
+			"name",
+			"pw",
+			"import",
+			"100000",
+			"t_ind",
+			"citing",
+			"dense_100",
+			"3930271"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			",",
+			"",
+			"df0.groupby(axis=0, level='PRODUCT_NC')",
+			"df1.groupby(axis=0, level='PRODUCT_NC')",
+			"df01.groupby(axis=0, level='PRODUCT_NC')",
+			"07",
+			"df007",
+			"df0",
+			"gr0",
+			"iyear0",
+			"iyear1",
+			"1",
+			" declarants",
+			" ",
+			"   ",
+			"  ",
+			"~/Python/538model",
+			"imports",
+			"self.Q_inv",
+			"Q",
+			"Q_inv",
+			"Q",
+			"1",
+			"%r",
+			"self",
+			"df4",
+			"df3",
+			"dot",
+			"linalg"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 29.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 130.0
+	},
+	"output.git":
+	{
+		"height": 100.0
+	},
+	"output.rope_python_documentation":
+	{
+		"height": 88.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": false,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"slides",
+				"presentation/slides_acemoglu_akcigit.tex"
+			],
+			[
+				"class",
+				"scripts/classifications.py"
+			],
+			[
+				"summar",
+				"scripts/summary_stats.py"
+			],
+			[
+				"comp",
+				"scripts/companies.py"
+			],
+			[
+				"sum",
+				"scripts/summary_stats.py"
+			],
+			[
+				"ace",
+				"presentation/slides_acemoglu_akcigit.tex"
+			],
+			[
+				"summa",
+				"scripts/summary_stats.py"
+			],
+			[
+				"graph",
+				"scripts/sparse_graph.py"
+			],
+			[
+				"ech",
+				"scripts/tech_graph.py"
+			],
+			[
+				"acem",
+				"research/AcemogluAkcigitNotes.tex"
+			],
+			[
+				"summ",
+				"presentation/summary_slides.tex"
+			],
+			[
+				"bold",
+				"research/BoldrinLevineNotes.tex"
+			],
+			[
+				"shape",
+				"scripts/states_shapefile/state_plot.py"
+			],
+			[
+				"looku",
+				"scripts/patent_lookup.py"
+			],
+			[
+				"scripts/summ",
+				"scripts/summary_stats.py"
+			],
+			[
+				"slid",
+				"presentation/slides_acemoglu_akcigit.tex"
+			],
+			[
+				"scripts/",
+				"scripts/states_shapefile/state_plot.py"
+			],
+			[
+				"look",
+				"scripts/patent_lookup.py"
+			],
+			[
+				"cite",
+				"scripts/cite_network.py"
+			],
+			[
+				"scripts/ci",
+				"scripts/cite_network.py"
+			],
+			[
+				"paten",
+				"scripts/patent_lookup.py"
+			],
+			[
+				"lookup",
+				"scripts/patent_lookup.py"
+			],
+			[
+				"",
+				"software.sublime-workspace"
+			],
+			[
+				"tech",
+				"scripts/tech_graph.py"
+			],
+			[
+				"sample",
+				"scripts/sample_ppf.py"
+			],
+			[
+				"ppf",
+				"sample_ppf.py"
+			],
+			[
+				"bol",
+				"BoldrinLevineNotes.tex"
+			],
+			[
+				"sparse",
+				"sparse_graph.py"
+			],
+			[
+				"scr",
+				"scripts.py"
+			],
+			[
+				"timi",
+				"timing.py"
+			],
+			[
+				"net",
+				"cite_network.py"
+			],
+			[
+				"sc",
+				"scripts.py"
+			],
+			[
+				"ac",
+				"AcemogluAkcigitNotes.tex"
+			],
+			[
+				"explorin.tex",
+				"exploring.tex"
+			],
+			[
+				"pikc",
+				"picking_a_topic.md"
+			],
+			[
+				"paper",
+				"paper_repo.py"
+			],
+			[
+				"tex",
+				"Term_Paper/final_paper/moral_hazard_and_liquidity.tex"
+			],
+			[
+				"cit",
+				"Term_Paper/final_paper/citations.bib"
+			],
+			[
+				".tex",
+				"Term_Paper/final_paper/moral_hazard_and_liquidity.tex"
+			],
+			[
+				"cita",
+				"Term_Paper/final_paper/citations.bib"
+			],
+			[
+				"moral",
+				"Term_Paper/final_presentation/moral_hazard_full_info.tex"
+			],
+			[
+				"citat",
+				"Term_Paper/final_paper/citations.bib"
+			],
+			[
+				"mor.tex",
+				"Term_Paper/final_paper/moral_hazard_and_liquidity.tex"
+			],
+			[
+				"ups",
+				"data-wrangling/Eurostat/supply_use/upstream_hypothesis.py"
+			],
+			[
+				"newmon",
+				"Comext/new_monthly_process.py"
+			],
+			[
+				"monthlypr",
+				"data-wrangling/Comext/new_monthly_process.py"
+			],
+			[
+				"durab",
+				"correspondences/durables_classification.py"
+			],
+			[
+				"respon",
+				"response/response.py"
+			],
+			[
+				"morep",
+				"correspondences/excel_correspondences/more_prodcom_parsing.py"
+			],
+			[
+				"nace_par",
+				"correspondences/nace_parse.py"
+			],
+			[
+				"cleaning",
+				"ind_prod/ind_prod_cleaning.py"
+			],
+			[
+				"supstre",
+				"supply_use/upstream_hypothesis.py"
+			],
+			[
+				"more",
+				"correspondences/excel_correspondences/more_prodcom_parsing.py"
+			],
+			[
+				"ind",
+				"ind_prod/ind_prod.py"
+			],
+			[
+				"indp",
+				"ind_prod/ind_prod.py"
+			],
+			[
+				"downst",
+				"supply_use/downstream_hypothesis.py"
+			],
+			[
+				"upstr",
+				"supply_use/upstream_hypothesis.py"
+			],
+			[
+				"upstre",
+				"supply_use/upstream_hypothesis.py"
+			],
+			[
+				"response",
+				"response/response.py"
+			],
+			[
+				"indpr",
+				"ind_prod/ind_prod.py"
+			],
+			[
+				"down",
+				"supply_use/downstream_hypothesis.py"
+			],
+			[
+				"usecoll",
+				"supply_use/docs/use_col_labels.txt"
+			],
+			[
+				"useco",
+				"supply_use/docs/use_col_cleaned.pkl"
+			],
+			[
+				"use",
+				"supply_use/docs/use_row_labels.txt"
+			],
+			[
+				"userow",
+				"supply_use/docs/use_row_labels.txt"
+			],
+			[
+				"use_col",
+				"supply_use/docs/use_col_labels.txt"
+			],
+			[
+				"nai",
+				"supply_use/naio_munge.py"
+			],
+			[
+				"suply",
+				"supply_use/supply_use_munging.py"
+			],
+			[
+				"use_sup",
+				"supply_use/supply_use_munging.py"
+			],
+			[
+				"label_mu",
+				"supply_use/docs/lablel_munging.py"
+			],
+			[
+				"usesupply",
+				"supply_use/supply_use_munging.py"
+			],
+			[
+				"supply",
+				"supply_use/use_supply_sample_import.py"
+			],
+			[
+				"present",
+				"national-accounts/namq_gdp_c-1/presentation_plots.py"
+			],
+			[
+				"trade",
+				"trade_wedge/trade_wedge.py"
+			],
+			[
+				"nation",
+				"national-accounts/namq_gdp_c-1/national_acct_cleaning.py"
+			],
+			[
+				"wedge",
+				"trade_wedge/trade_wedge.py"
+			],
+			[
+				"parse",
+				"trade_wedge/time_parsers.py"
+			],
+			[
+				"country",
+				"Comext/metadata/country_code.py"
+			],
+			[
+				"suppl",
+				"supply_use/sample_import.py"
+			],
+			[
+				"gmminr",
+				"Comext/practice_gmm_in_r.R"
+			],
+			[
+				"gmm_in",
+				"Comext/practice_gmm_in_r.R"
+			],
+			[
+				"nace",
+				"Comext/metadata/concordances.py"
+			],
+			[
+				"sampl",
+				"supply_use/sample_import.py"
+			],
+			[
+				"new_m",
+				"Comext/new_monthly_process.py"
+			],
+			[
+				"new",
+				"Comext/new_monthhly_process.py"
+			],
+			[
+				"new_",
+				"Comext/new_monthhly_process"
+			],
+			[
+				"inr",
+				"Comext/practice_gmm_in_r.R"
+			],
+			[
+				"year_month",
+				"Comext/year_month_parse.py"
+			],
+			[
+				"proc",
+				"Comext/process.py"
+			],
+			[
+				"yearly",
+				"Comext/yearly_process.py"
+			],
+			[
+				"coun",
+				"Comext/metadata/country_code.py"
+			],
+			[
+				"help",
+				"Comext/helpers.py"
+			],
+			[
+				"fina",
+				"final_join.py"
+			],
+			[
+				"smartpr",
+				"smart_prices.py"
+			],
+			[
+				"smar",
+				"smart_shares.py"
+			],
+			[
+				"partn",
+				"partner.py"
+			],
+			[
+				"misc",
+				"misc.py"
+			],
+			[
+				"ful",
+				"full_run.py"
+			],
+			[
+				"smartsh",
+				"smart_shares.py"
+			],
+			[
+				"prices",
+				"smart_prices.py"
+			],
+			[
+				"smarts",
+				"smart_shares.py"
+			],
+			[
+				"smartp",
+				"smart_prices.py"
+			],
+			[
+				"getq",
+				"get_quantities.py"
+			],
+			[
+				"runs",
+				"run_shares.py"
+			],
+			[
+				"run",
+				"run_prices.py"
+			],
+			[
+				"get",
+				"get_reference.py"
+			],
+			[
+				"part",
+				"partner.py"
+			],
+			[
+				"comtrade",
+				"/Users/tom/TradeData/data-wrangling/Comtrade/comtrade_import.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/tom/Dropbox/Economics/Topics_in_Macro/alice/software/software.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 231.0,
+	"status_bar_visible": true
+}
