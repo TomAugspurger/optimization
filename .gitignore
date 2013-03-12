@@ -72,3 +72,5 @@ nosetests.xml
 
 # Misc
 *.pdf
+*.sublime-workspace
+*.sublime-project

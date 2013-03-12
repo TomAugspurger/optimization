@@ -111,7 +111,7 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 375.0,
+		"height": 93.0,
 		"selected_items":
 		[
 			[
@@ -627,7 +627,7 @@
 				"SublimeLinter: Save-Only Linting"
 			]
 		],
-		"width": 453.0
+		"width": 588.0
 	},
 	"console":
 	{
@@ -644,6 +644,12 @@
 	},
 	"file_history":
 	[
+		"/Users/tom/Desktop/test.tex",
+		"/Users/tom/Dropbox/Economics/Optimization Techniques/Homework/hw5/bfgs_w_els.py",
+		"/Users/tom/Dropbox/Economics/Topics_in_Macro/alice/software/presentation/test_bfgs_dfp.py",
+		"/Users/tom/Dropbox/Economics/Optimization Techniques/Homework/hw5/number6.py",
+		"/Users/tom/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/tom/Dropbox/Economics/Optimization Techniques/Homework/hw5/hw5.py",
 		"/Users/tom/Dropbox/Economics/Topics_in_Macro/alice/software/presentation/slides_acemoglu_akcigit.tex",
 		"/Users/tom/Dropbox/Economics/Topics_in_Macro/alice/software/scripts/classifications.py",
 		"/Users/tom/Dropbox/Economics/Topics_in_Macro/alice/software/scripts/name_parsing.py",
@@ -702,7 +708,6 @@
 		"/Users/tom/Dropbox/Economics/Programming/Python/paper_repo/paper_repo.py",
 		"/Users/tom/Dropbox/Economics/Topics_in_Macro/alice/software/patent_lookup.py",
 		"/Users/tom/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
-		"/Users/tom/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/Volumes/HDD/Users/tom/DataStorage/Patents/scripts.py",
 		"/Users/tom/Dropbox/Economics/Programming/compEcon/ngm/TZMatlabPrograms/fwzmsv_nk_example/fwz_msv_msre.m",
 		"/Users/tom/Library/Application Support/Sublime Text 2/Packages/LaTeXTools/texSections.py",
@@ -766,12 +771,7 @@
 		"/Users/tom/TradeData/data-wrangling/Eurostat/services/services_munging.py",
 		"/Users/tom/TradeData/data-wrangling/Eurostat/supply_use/supply_use_munging.py",
 		"/Users/tom/TradeData/data-wrangling/Eurostat/ind_prod/ind_prod.py",
-		"/Users/tom/TradeData/data-wrangling/Eurostat/correspondences/excel_correspondences/cn_nace_parsing.py",
-		"/Users/tom/TradeData/data-wrangling/Eurostat/correspondences/nace_parse.py",
-		"/Users/tom/Library/Application Support/Sublime Text 2/Packages/User/Package Control.sublime-settings",
-		"/Users/tom/TradeData/data-wrangling/euro_recession_trade.sublime-project",
-		"/Users/tom/TradeData/data-wrangling/paper/euro_recession_trade.tex",
-		"/User/tom/TradeData/Eurostat/correspondences"
+		"/Users/tom/TradeData/data-wrangling/Eurostat/correspondences/excel_correspondences/cn_nace_parsing.py"
 	],
 	"find":
 	{
@@ -789,6 +789,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Menlo",
+			"font",
+			"x",
+			"df",
+			"gen",
 			"equation",
 			"aghi",
 			"tele",
@@ -911,12 +916,7 @@
 			"end",
 			"name",
 			"pw",
-			"import",
-			"100000",
-			"t_ind",
-			"citing",
-			"dense_100",
-			"3930271"
+			"import"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1021,6 +1021,18 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"bfg",
+				"hw5/bfgs_w_els.py"
+			],
+			[
+				"hw5",
+				"hw5/number6.py"
+			],
+			[
+				"bfgw",
+				"hw5/bfgs_w_els.py"
+			],
 			[
 				"slides",
 				"presentation/slides_acemoglu_akcigit.tex"
