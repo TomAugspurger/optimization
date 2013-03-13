@@ -4,9 +4,11 @@ import pandas as pd
 import numpy as np
 from numpy import dot
 from functools import partial
+from scipy.linalg import inv
+
 
 def bfgs_els_update(x, B, c, H, dfp):
-    p = -c - dot(H, x)
+    p = dot(inv(B), -c - dot(H, x))
     a = - 1 / (dot(dot(p.T, H), p)) * dot((dot(H, x) + c).T, p)
     s = a * p
     x_next = x + s
@@ -20,10 +22,12 @@ def bfgs_els_update(x, B, c, H, dfp):
     return (x_next, B_next, p, a, s, y)
 
 
-def bfgs_gen(x, B, c, H, q, n=4, dfp=False):
+def bfgs_gen(x, B, c, H, q, n=5, dfp=False):
     for i in range(n):
+        xc = x
+        Bc = B
         x, B, p, a, s, y = bfgs_els_update(x, B, c, H, dfp)
-        yield ({'x': x, 'B': B, 'f': q(x), 'p': p, 'a': a, 's': s, 'y': y})
+        yield ({'x': xc, 'B': Bc, 'f': q(x), 'p': p, 'a': a, 's': s, 'y': y})
 
 
 if __name__ == '__main__':
@@ -43,6 +47,15 @@ if __name__ == '__main__':
     H = np.array([8/9, -2, -2, 6]).reshape(2, 2)
     c = np.array([1, -.75]).reshape(2, 1)
 
+    p = dot(inv(B), -c - dot(H, x))
+    a = - 1 / (dot(dot(p.T, H), p)) * dot((dot(H, x) + c).T, p)
+    s = a * p
+    y = dot(H, s)
+    x1 = x + s
+    B1 = B - 1 / (dot(dot(s.T, B), s)) * (
+        dot(dot(dot(B, s), s.T), B.T)) + 1 / (dot(y.T, s)) * dot(y, y.T)
+
+    k1 = []
     gen_bfgs = bfgs_gen(x, B, c, H, q)
     df = pd.DataFrame([ar for ar in gen_bfgs])
     df = df.applymap(fn)
@@ -63,4 +76,5 @@ if __name__ == '__main__':
     with open('hw5_1_results_text.txt', 'a') as f:
         f.write('\n\n### With DFP update ###\n\n')
         f.write(df2.to_string())
-
+        f.write('\n\n### The Difference###\n\n')
+        f.write((df - df2).to_string())
