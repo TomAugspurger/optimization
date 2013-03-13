@@ -111,7 +111,7 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 93.0,
+		"height": 375.0,
 		"selected_items":
 		[
 			[
@@ -644,10 +644,11 @@
 	},
 	"file_history":
 	[
-		"/Users/tom/Desktop/test.tex",
 		"/Users/tom/Dropbox/Economics/Optimization Techniques/Homework/hw5/bfgs_w_els.py",
-		"/Users/tom/Dropbox/Economics/Topics_in_Macro/alice/software/presentation/test_bfgs_dfp.py",
 		"/Users/tom/Dropbox/Economics/Optimization Techniques/Homework/hw5/number6.py",
+		"/Users/tom/Dropbox/Economics/Optimization Techniques/Homework/.gitignore",
+		"/Users/tom/Desktop/test.tex",
+		"/Users/tom/Dropbox/Economics/Topics_in_Macro/alice/software/presentation/test_bfgs_dfp.py",
 		"/Users/tom/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/Users/tom/Dropbox/Economics/Optimization Techniques/Homework/hw5/hw5.py",
 		"/Users/tom/Dropbox/Economics/Topics_in_Macro/alice/software/presentation/slides_acemoglu_akcigit.tex",
@@ -770,8 +771,7 @@
 		"/Users/tom/TradeData/data-wrangling/Eurostat/ind_prod/ind_prod_cleaning.py",
 		"/Users/tom/TradeData/data-wrangling/Eurostat/services/services_munging.py",
 		"/Users/tom/TradeData/data-wrangling/Eurostat/supply_use/supply_use_munging.py",
-		"/Users/tom/TradeData/data-wrangling/Eurostat/ind_prod/ind_prod.py",
-		"/Users/tom/TradeData/data-wrangling/Eurostat/correspondences/excel_correspondences/cn_nace_parsing.py"
+		"/Users/tom/TradeData/data-wrangling/Eurostat/ind_prod/ind_prod.py"
 	],
 	"find":
 	{
@@ -1022,12 +1022,16 @@
 		"selected_items":
 		[
 			[
-				"bfg",
+				"hw5",
 				"hw5/bfgs_w_els.py"
 			],
 			[
-				"hw5",
-				"hw5/number6.py"
+				"hw5/",
+				"hw5/bfgs_w_els.py"
+			],
+			[
+				"bfg",
+				"hw5/bfgs_w_els.py"
 			],
 			[
 				"bfgw",
