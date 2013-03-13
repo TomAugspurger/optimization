@@ -70,14 +70,15 @@ if __name__ == '__main__':
 
     x = np.arange(1, 16)
     x_star = ([1, -1] * 7 + [1]) * x
-
+    denom = anorm(x_star, A)
+    e_0 = anorm((x_star - x), A) / denom
     b = dot(A, x_star)
     gen = cg_gen(b, A)
     df = pd.DataFrame([v for v in gen], columns=['x', 'p', 'g'])
-    denom = anorm(x_star, A)
     df['error'] = df.x.apply(lambda x_k: x_star - x_k)
     df['norm_error'] = df.error.apply(lambda x: anorm(x, A) / denom)
     df.index = df.index + 1
+    
     with open('hw5_part6.txt', 'w') as f:
         f.write('#' * 10 + 'Number 6' + 10 * '#' + '\n\n')
-        f.write(df['norm_error'].to_string(name=True))
+        f.write('0     ' + str(e_0) + '\n' + df['norm_error'].to_string(name=True))
