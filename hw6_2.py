@@ -9,6 +9,10 @@ df0 = np.eye(2)
 f1 = 0.2 * np.array([-3, 4]).reshape(2, 1)
 df1 = np.array([1, 1, -1 / sqrt(3), 1 / sqrt(3)]).reshape(2, 2)
 
+# For k = 0
+lhs_0 = norm(dot(inv(df0), f1))
+rhs_0 = norm(dot(inv(df0), f0))
+
 lhs = norm(dot(inv(df1), f0))
 rhs = norm(dot(inv(df1), f1))
 
